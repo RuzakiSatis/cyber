@@ -1,0 +1,17 @@
+.img_game{
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+}
+.info{
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+    justify-content: center;
+    
+    &_followers{
+        line-height: 30px;
+        font-size: 20px;
+        color: aliceblue;
+    }
+}

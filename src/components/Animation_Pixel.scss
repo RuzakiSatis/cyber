@@ -1,0 +1,23 @@
+#canvas1{
+    margin-top: 80px;
+    height: 80%;
+    width: 100%;
+    position: unset;
+    display: block;
+
+  }
+  @media (min-width:1050px){
+    #canvas1{
+      width: 82%;
+      position: absolute;
+      top: 78px;
+      left: 228px;
+    }
+  }
+  .controls{
+    position: absolute;
+    z-index: 100;
+  }
+  #image1{
+    display: none;
+  }

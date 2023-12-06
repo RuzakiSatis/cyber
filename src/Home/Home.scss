@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One:ital@1&family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One:ital@1&family=Fredericka+the+Great&family=Noto+Serif+Old+Uyghur&display=swap');
+.main{
+    max-width: 1420px;
+    padding: 25px;
+    margin: 0 auto;
+    &_hat{
+        display: flex;
+        flex-wrap: wrap;
+        &_title{
+            margin: 0 auto;
+
+            &_Dev{
+                font-family: 'Alumni Sans Inline One', sans-serif;
+                font-family: 'Fredericka the Great', serif;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 100px;
+
+                color: #ff9900;
+            }
+            &_big{
+                font-family: 'Alumni Sans Inline One', sans-serif;
+                font-family: 'Fredericka the Great', serif;
+                font-family: 'Noto Serif Old Uyghur', serif;
+                font-size: 50px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 80px;
+                text-shadow: 4px 4px 6px rgb(118 60 118);
+            }
+            &_text{
+                font-family: 'Alumni Sans Inline One', sans-serif;
+                font-family: 'Fredericka the Great', serif;
+                font-family: 'Noto Serif Old Uyghur', serif;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 30px;
+
+                color: rgb(227, 227, 227);
+            }
+            &_button {
+                margin-top: 50px;
+                color: #fff;
+                border-radius: 15px;
+                padding: 10px 25px;
+                font-family: Oxanium;
+                font-weight: 500;
+                background: transparent;
+                cursor: pointer;
+                transition: all 0.3s ease;
+                position: relative;
+                display: inline-block;
+                 box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+                 7px 7px 20px 0px rgb(0, 0, 0),
+                 4px 4px 5px 0px rgba(0,0,0,.1);
+                outline: none;
+            }
+            &_btn{
+                font-family: 'Alumni Sans Inline One', sans-serif;
+                font-family: 'Fredericka the Great', serif;
+                font-family: 'Noto Serif Old Uyghur', serif;
+                font-weight: 600;
+                font-size: 14px;
+                width: 195px;
+                height: 50px;
+                margin-left: -10px;
+                border: none;
+                overflow: hidden;
+                background: rgb(251,33,117);
+                background: linear-gradient(0deg, rgb(255 171 0) 0%, rgb(244 28 28) 100%);
+                color: #251928;
+            }
+            &_btn:hover {
+                  text-decoration: none;
+                  color: #fff;
+            }
+            &_btn:before {
+                  position: absolute;
+                  content: '';
+                  display: inline-block;
+                  top: -180px;
+                  left: 0;
+                  width: 30px;
+                  height: 100%;
+                  background-color: #171515;
+                  animation: shiny-btn1 2s ease-in-out infinite;
+            }
+            &_btn:hover{
+                color: #000000;
+                opacity: .7;
+            }
+            &_btn:active{
+                box-shadow:  4px 4px 6px 0 rgba(255,255,255,.3),
+                            -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+                  inset -4px -4px 6px 0 rgba(255,255,255,.2),
+                  inset 4px 4px 6px 0 rgba(0, 0, 0, .2);
+            }
+            @keyframes shiny-btn1 {
+                  0% { -webkit-transform: scale(0) rotate(45deg); opacity: 0; }
+                  80% { -webkit-transform: scale(0) rotate(45deg); opacity: 0.5; }
+                  81% { -webkit-transform: scale(4) rotate(45deg); opacity: 1; }
+                  100% { -webkit-transform: scale(50) rotate(45deg); opacity: 0; }
+            }
+        }
+        @media (min-width: 1050px) {
+            &_title{
+                margin: 0;
+            }
+        }
+        
+    }
+    &_TrendingGame{
+        margin-top: 150px;
+
+        &_ControlsBlock{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 50px;
+            &_title{
+                font-size: 24px;
+                font-family: 'Alumni Sans Inline One', sans-serif;
+                font-family: 'Fredericka the Great', serif;
+                text-shadow: 4px 2px 4px rgb(255, 0, 179);
+            }
+            &_button {
+                color: #fff;
+                border-radius: 15px;
+                padding: 10px 25px;
+                font-family: Oxanium;
+                font-weight: 500;
+                background: transparent;
+                cursor: pointer;
+                transition: all 0.3s ease;
+                position: relative;
+                display: inline-block;
+                 box-shadow:inset 2px 2px 2px 0px rgba(252, 0, 185, 0.5),
+                 7px 7px 20px 0px rgb(0, 0, 0),
+                 4px 4px 5px 0px rgba(0,0,0,.1);
+                outline: none;
+            }
+            &_btn{
+                font-family: 'Alumni Sans Inline One', sans-serif;
+                font-family: 'Fredericka the Great', serif;
+                font-family: 'Noto Serif Old Uyghur', serif;
+                font-weight: 600;
+                font-size: 14px;
+                width: 195px;
+                height: 50px;
+                margin-left: -10px;
+                border: none;
+                overflow: hidden;
+                background: rgb(251,33,117);
+                background: linear-gradient(0deg, rgba(255, 170, 0, 0.012) 0%, rgba(244, 28, 28, 0.001) 100%);
+                color: rgb(253, 0, 143);
+            }
+            &_btn:hover {
+                  text-decoration: none;
+                  color: #fff;
+            }
+            &_btn:before {
+                  position: absolute;
+                  content: '';
+                  display: inline-block;
+                  top: -180px;
+                  left: 0;
+                  width: 30px;
+                  height: 100%;
+                  background-color: #171515;
+                  animation: shiny-btn1 2s ease-in-out infinite;
+            }
+            &_btn:hover{
+                color: #000000;
+                opacity: .7;
+            }
+            &_btn:active{
+                box-shadow:  4px 4px 6px 0 rgba(255,255,255,.3),
+                            -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+                  inset -4px -4px 6px 0 rgba(255,255,255,.2),
+                  inset 4px 4px 6px 0 rgba(0, 0, 0, .2);
+            }
+        }
+        &_listGame{
+            justify-content: center;
+            margin-top: 100px;
+            display: flex;
+            gap: 50px;
+            flex-wrap: wrap;
+        }
+    }
+}
